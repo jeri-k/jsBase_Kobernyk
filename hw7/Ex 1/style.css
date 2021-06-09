@@ -1,0 +1,73 @@
+.container{
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-modal{
+    display: block;
+    padding: 20px 30px;
+    color: #474040;
+    background-color: #3bb9ca;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn-modal:hover{
+    background-color: chocolate;
+    color: white;
+    transform: scale(1.1);
+
+
+}
+
+.the-modal-box {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #61cab8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inputName{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.inputEmail{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn-send {
+    background-color: #77eb90;
+    margin-right: 10px;
+}
+
+.btn-cancel{
+    background-color: #ec5c5c;
+
+}
+.btn-send,.btn-cancel{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    color: #414141;
+    cursor: pointer;
+}
